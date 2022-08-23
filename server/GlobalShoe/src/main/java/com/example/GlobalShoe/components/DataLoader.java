@@ -124,6 +124,47 @@ public class DataLoader  implements ApplicationRunner {
         Shoe shoe7 = new Shoe("name","description", 32,20,shoeType2);
         shoeRepository.save(shoe7);
 
+        //Pictures for "shoe4"
+        Picture picture16 = new Picture("",shoe4);
+        pictureRepository.save(picture16);
+        Picture picture17 = new Picture("",shoe4);
+        pictureRepository.save(picture17);
+        Picture picture18 = new Picture("",shoe4);
+        pictureRepository.save(picture18);
+        Picture picture19 = new Picture("",shoe4);
+        pictureRepository.save(picture19);
+
+        //Pictures for "shoe5"
+        Picture picture20 = new Picture("",shoe5);
+        pictureRepository.save(picture20);
+        Picture picture21 = new Picture("",shoe5);
+        pictureRepository.save(picture21);
+        Picture picture22 = new Picture("",shoe5);
+        pictureRepository.save(picture22);
+        Picture picture23 = new Picture("",shoe5);
+        pictureRepository.save(picture23);
+
+        //Pictures for "shoe6"
+        Picture picture24 = new Picture("",shoe6);
+        pictureRepository.save(picture24);
+        Picture picture25 = new Picture("",shoe6);
+        pictureRepository.save(picture25);
+        Picture picture26 = new Picture("",shoe6);
+        pictureRepository.save(picture26);
+        Picture picture27 = new Picture("",shoe6);
+        pictureRepository.save(picture27);
+
+        //Pictures for "shoe7"
+        Picture picture28 = new Picture("",shoe7);
+        pictureRepository.save(picture28);
+        Picture picture29 = new Picture("",shoe7);
+        pictureRepository.save(picture29);
+        Picture picture30 = new Picture("",shoe7);
+        pictureRepository.save(picture30);
+        Picture picture31 = new Picture("",shoe7);
+        pictureRepository.save(picture31);
+
+
         //Sports shoes for women's
         Shoe shoe8 = new Shoe("name","description", 56,15,shoeType5);
         shoeRepository.save(shoe8);
@@ -134,6 +175,46 @@ public class DataLoader  implements ApplicationRunner {
         Shoe shoe11 = new Shoe("name","description", 32,20,shoeType5);
         shoeRepository.save(shoe11);
 
+        //Pictures for "shoe8"
+        Picture picture32 = new Picture("",shoe8);
+        pictureRepository.save(picture32);
+        Picture picture33 = new Picture("",shoe8);
+        pictureRepository.save(picture33);
+        Picture picture34 = new Picture("",shoe8);
+        pictureRepository.save(picture34);
+        Picture picture35 = new Picture("",shoe8);
+        pictureRepository.save(picture35);
+
+        //Pictures for "shoe9"
+        Picture picture36 = new Picture("",shoe9);
+        pictureRepository.save(picture36);
+        Picture picture37 = new Picture("",shoe9);
+        pictureRepository.save(picture37);
+        Picture picture38 = new Picture("",shoe9);
+        pictureRepository.save(picture38);
+        Picture picture39 = new Picture("",shoe9);
+        pictureRepository.save(picture39);
+
+        //Pictures for "shoe10"
+        Picture picture40 = new Picture("",shoe10);
+        pictureRepository.save(picture40);
+        Picture picture41 = new Picture("",shoe10);
+        pictureRepository.save(picture41);
+        Picture picture42 = new Picture("",shoe10);
+        pictureRepository.save(picture42);
+        Picture picture43 = new Picture("",shoe10);
+        pictureRepository.save(picture43);
+
+        //Pictures for "shoe11"
+        Picture picture44 = new Picture("",shoe11);
+        pictureRepository.save(picture44);
+        Picture picture45 = new Picture("",shoe11);
+        pictureRepository.save(picture45);
+        Picture picture46 = new Picture("",shoe11);
+        pictureRepository.save(picture46);
+        Picture picture47 = new Picture("",shoe11);
+        pictureRepository.save(picture47);
+
         //Casual shoes for women's
         Shoe shoe12 = new Shoe("name","description", 56,15,shoeType7);
         shoeRepository.save(shoe12);
@@ -143,6 +224,46 @@ public class DataLoader  implements ApplicationRunner {
         shoeRepository.save(shoe14);
         Shoe shoe15 = new Shoe("name","description", 32,20,shoeType7);
         shoeRepository.save(shoe15);
+
+        //Pictures for "shoe12"
+        Picture picture48 = new Picture("",shoe12);
+        pictureRepository.save(picture48);
+        Picture picture49 = new Picture("",shoe12);
+        pictureRepository.save(picture49);
+        Picture picture50 = new Picture("",shoe12);
+        pictureRepository.save(picture50);
+        Picture picture51 = new Picture("",shoe12);
+        pictureRepository.save(picture51);
+
+        //Pictures for "shoe13"
+        Picture picture52 = new Picture("",shoe13);
+        pictureRepository.save(picture52);
+        Picture picture53 = new Picture("",shoe13);
+        pictureRepository.save(picture53);
+        Picture picture54 = new Picture("",shoe13);
+        pictureRepository.save(picture54);
+        Picture picture55 = new Picture("",shoe13);
+        pictureRepository.save(picture55);
+
+        //Pictures for "shoe14"
+        Picture picture56 = new Picture("",shoe14);
+        pictureRepository.save(picture56);
+        Picture picture57 = new Picture("",shoe14);
+        pictureRepository.save(picture57);
+        Picture picture58 = new Picture("",shoe14);
+        pictureRepository.save(picture58);
+        Picture picture59 = new Picture("",shoe14);
+        pictureRepository.save(picture59);
+
+        //Pictures for "shoe15"
+        Picture picture60 = new Picture("",shoe15);
+        pictureRepository.save(picture60);
+        Picture picture61 = new Picture("",shoe15);
+        pictureRepository.save(picture61);
+        Picture picture62 = new Picture("",shoe15);
+        pictureRepository.save(picture62);
+        Picture picture63 = new Picture("",shoe15);
+        pictureRepository.save(picture63);
 
 
     }

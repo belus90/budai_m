@@ -21,3 +21,5 @@ function Mainbox() {
 }
 
 export default Mainbox;
+
+//the mainbox and the product.js was the same before doing the fetching 

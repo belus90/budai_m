@@ -11,7 +11,7 @@ import About from './About';
 import Home from './Home';
 import Contact from './Contact';
 import ProductDetail from './ProductDetail';
-import Mainbox from '../container/Mainbox';
+import MainBox from '../container/MainBox.js';
 
 
 function Header() {
@@ -51,7 +51,7 @@ function Header() {
                 <Route path="/about" element={<About />} />
                 <Route path="/product/men/casual" element={<ProductList />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/product/men/sports" element={<Mainbox />} />
+                <Route path="/product/men/sports" element={<MainBox />} />
             </Routes>
         </Router>
     );

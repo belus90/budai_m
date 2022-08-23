@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Mainbox from './container/Mainbox';
+// import Mainbox from './container/Mainbox';
 import Header from './components/Header';
 import './style/Footer.css';
 

@@ -10,16 +10,16 @@ public class Picture {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
-    private String name;
+    @Column(name = "img")
+    private String img;
 
     @ManyToOne
     @JoinColumn(name = "shoe_id")
     private Shoe shoe;
 
 
-    public Picture(String name, Shoe shoe) {
-        this.name = name;
+    public Picture(String img, Shoe shoe) {
+        this.img = img;
         this.shoe = shoe;
     }
 
@@ -35,13 +35,14 @@ public class Picture {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getImg() {
+        return img;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setImg(String img) {
+        this.img = img;
     }
+
     public Shoe getShoe() {
         return shoe;
     }

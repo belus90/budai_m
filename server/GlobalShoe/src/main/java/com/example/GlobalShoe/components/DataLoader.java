@@ -65,53 +65,53 @@ public class DataLoader  implements ApplicationRunner {
         shoeTypeRepository.save(shoeType9);
 
         //Sports shoes for men
-        Shoe shoe = new Shoe("name","description", 56,15,shoeType);
+        Shoe shoe = new Shoe("Nike Air force 1' 07","description", 110,15,shoeType);
         shoeRepository.save(shoe);
-        Shoe shoe1 = new Shoe("name","description", 25,10,shoeType);
+        Shoe shoe1 = new Shoe("Air Jordan 1 Zoom CMFT","description", 145,10,shoeType);
         shoeRepository.save(shoe1);
-        Shoe shoe2 = new Shoe("name","description", 89,5,shoeType);
+        Shoe shoe2 = new Shoe("Nike Pegasus Trail 3","description", 64,5,shoeType);
         shoeRepository.save(shoe2);
-        Shoe shoe3 = new Shoe("name","description", 32,20,shoeType);
+        Shoe shoe3 = new Shoe("Nike Air Max Alpha Trainer 4","description", 59,20,shoeType);
         shoeRepository.save(shoe3);
 
         //Pictures for "shoe"
-        Picture picture = new Picture("",shoe);
+        Picture picture = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/1/1.2.webp",shoe);
         pictureRepository.save(picture);
-        Picture picture1 = new Picture("",shoe);
+        Picture picture1 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/1/1.webp",shoe);
         pictureRepository.save(picture1);
-        Picture picture2 = new Picture("",shoe);
+        Picture picture2 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/1/1.3.webp",shoe);
         pictureRepository.save(picture2);
-        Picture picture3 = new Picture("",shoe);
+        Picture picture3 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/1/1.1.webp",shoe);
         pictureRepository.save(picture3);
 
         //Pictures for "shoe1"
-        Picture picture4 = new Picture("",shoe1);
+        Picture picture4 = new Picture("https://github.com/belus90/budai_m/blob/main/client/img/Men:Sports/2/2.2.jpeg?raw=true",shoe1);
         pictureRepository.save(picture4);
-        Picture picture5 = new Picture("",shoe1);
+        Picture picture5 = new Picture("https://github.com/belus90/budai_m/blob/main/client/img/Men:Sports/2/2.jpeg?raw=true",shoe1);
         pictureRepository.save(picture5);
-        Picture picture6 = new Picture("",shoe1);
+        Picture picture6 = new Picture("https://github.com/belus90/budai_m/blob/main/client/img/Men:Sports/2/2.3.jpeg?raw=true",shoe1);
         pictureRepository.save(picture6);
-        Picture picture7 = new Picture("",shoe1);
+        Picture picture7 = new Picture("https://github.com/belus90/budai_m/blob/main/client/img/Men:Sports/2/2.1.jpeg?raw=true",shoe1);
         pictureRepository.save(picture7);
 
         //Pictures for "shoe2"
-        Picture picture8 = new Picture("",shoe2);
+        Picture picture8 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/3/3.webp",shoe2);
         pictureRepository.save(picture8);
-        Picture picture9 = new Picture("",shoe2);
+        Picture picture9 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/3/3.2.webp",shoe2);
         pictureRepository.save(picture9);
-        Picture picture10 = new Picture("",shoe2);
+        Picture picture10 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/3/3.1.webp",shoe2);
         pictureRepository.save(picture10);
-        Picture picture11 = new Picture("",shoe2);
+        Picture picture11 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/3/3.3.webp",shoe2);
         pictureRepository.save(picture11);
 
         //Pictures for "shoe3"
-        Picture picture12 = new Picture("",shoe3);
+        Picture picture12 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/4/4.webp",shoe3);
         pictureRepository.save(picture12);
-        Picture picture13 = new Picture("",shoe3);
+        Picture picture13 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/4/4.4.webp",shoe3);
         pictureRepository.save(picture13);
-        Picture picture14 = new Picture("",shoe3);
+        Picture picture14 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/4/4.1.webp",shoe3);
         pictureRepository.save(picture14);
-        Picture picture15 = new Picture("",shoe3);
+        Picture picture15 = new Picture("https://raw.githubusercontent.com/belus90/budai_m/main/client/img/Men%3ASports/4/4.2.webp",shoe3);
         pictureRepository.save(picture15);
 
         //Casual shoes for men

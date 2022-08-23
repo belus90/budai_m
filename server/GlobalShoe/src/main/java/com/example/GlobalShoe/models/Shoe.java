@@ -14,8 +14,8 @@ public class Shoe {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "shoe_name")
-    private String shoe_name;
+    @Column(name = "name")
+    private String name;
 
     @Column(name = "description")
     private String description;
@@ -25,6 +25,9 @@ public class Shoe {
 
     @Column(name = "quantity")
     private Integer quantity;
+
+    @Column(name = "img")
+    private String img;
 
     @JsonIgnoreProperties({"shoe"})
     @OneToMany(mappedBy = "shoe", fetch = FetchType.LAZY)
@@ -39,13 +42,14 @@ public class Shoe {
 
     }
 
-    public Shoe(String shoe_name, String description, Integer price, Integer quantity, ShoeType shoeType) {
-        this.shoe_name = shoe_name;
+    public Shoe(String name, String description, Integer price, Integer quantity, ShoeType shoeType, String img) {
+        this.name = name;
         this.description = description;
         this.price = price;
         this.quantity = quantity;
         this.pictures = new ArrayList<>();
         this.shoeType = shoeType;
+        this.img = img;
     }
 
     public List<Picture> getPictures() {
@@ -72,12 +76,12 @@ public class Shoe {
         this.id = id;
     }
 
-    public String getShoe_name() {
-        return shoe_name;
+    public String getName() {
+        return name;
     }
 
-    public void setShoe_name(String shoe_name) {
-        this.shoe_name = shoe_name;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getDescription() {
@@ -102,5 +106,13 @@ public class Shoe {
 
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
+    }
+
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 }

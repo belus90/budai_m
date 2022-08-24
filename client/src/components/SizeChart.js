@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/SizeChart.css';
+import "../style/SizeChart.css";
 
 
 function SizeChart() {
@@ -58,28 +58,26 @@ function SizeChart() {
                     <button>
                         <span className="size-button">9.5</span>
                     </button>
-                    <div className="row3">
-                        <button>
-                            <span className="size-button">10</span>
-                        </button>
-                        <button>
-                            <span className="size-button">10.5</span>
-                        </button>
-                        <button>
-                            <span className="size-button">11</span>
-                        </button>
-                        <button>
-                            <span className="size-button">11.5</span>
-                        </button>
-                        <button>
-                            <span className="size-button">12</span>
-                        </button>
+                <div className="row3">
+                    <button>
+                        <span className="size-button">10</span>
+                    </button>
+                    <button>
+                        <span className="size-button">10.5</span>
+                    </button>                        <button>
+                        <span className="size-button">11</span>
+                    </button>
+                    <button>
+                        <span className="size-button">11.5</span>
+                    </button>
+                    <button>
+                        <span className="size-button">12</span>                        
+                    </button>
                     </div>
                 </div>
-                <a href = "">Size guide </a>
+                <a href = "https://image.shutterstock.com/image-vector/set-shoes-chart-size-socks-260nw-1632069205.jpg">Size guide </a>
             </div>
-            <br></br>
-            <button className = "basketB">Add to the basket</button>
+            
         </div>
 
     );

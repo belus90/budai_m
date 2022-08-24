@@ -8,12 +8,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-     {/* <ShoeContainer /> */}
-      {/* <div className = "footer">
+     {/* <ShoeContainer />  */}
+      <div className = "footer">
       <Footer />
-      </div> */}
-
-    {/* check the footer why is not sticky when is should be  */}
+      </div>
 
     </div>
   );

@@ -14,6 +14,8 @@ In the client directory, you can run:
 
 ### `npm start`
 
+### Also you need go to the "server" folder and run the back-end to see the result on the front-end
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 

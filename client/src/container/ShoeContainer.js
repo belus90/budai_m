@@ -1,7 +1,9 @@
 import React from "react";
-import ShoeSelector from "../components/ShoeSelector";
-import ShoeDetail from "../components/ShoeDetail";
 import { useState, useEffect } from "react";
+import ShoeSelector from "../components/ShoeSelector";
+import "../style/ShoeContainer.css";
+import ShoeDetail from "../components/ShoeDetail";
+
 
 
 const ShoeContainer = () => {
@@ -18,8 +20,8 @@ const ShoeContainer = () => {
         .then(shoes => setShoes(shoes))
     }
 
-    // const onMunroClick = function(munro){
-    //     setSelectedMunro(munro);
+    // const onShoeClick = function(shoe){
+    //     setSelectedShoe(shoe);
     // }
 
     const onShoeSelected = function(shoe){
@@ -28,9 +30,8 @@ const ShoeContainer = () => {
 
     return (
         <div className="main-container">
-            {/* <MunroList munros={munros} onMunroClick={onMunroClick} /> */}
             <ShoeSelector shoes={shoes} onShoeSelected={onShoeSelected} />
-            {/* {selectedShoe ? <ShoeDetail selectedShoe={selectedShoe} /> : null} */}
+            {selectedShoe ? <ShoeDetail selectedShoe={selectedShoe} /> : null}
             
         </div>
     )

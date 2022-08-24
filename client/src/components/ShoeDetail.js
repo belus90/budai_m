@@ -1,19 +1,43 @@
-import React from 'react';
-// import ShoeContainer from '../containers/ShoeContainer';
+import React from  "react";
+import SizeChart from "../components/SizeChart";
+import "../style/ShoeDetail.css";
+import "../style/SizeChart.css";
+
+
 
 const ShoeDetail = ({selectedShoe}) => {
-  return (
-        <div>
-            <h3>Name: {selectedShoe.name}</h3>
-            <img  src = {selectedShoe.img}/>
-            <img  src = {selectedShoe.pictures[0].img}/>
-            <img  src = {selectedShoe.pictures[1].img}/>
-            <img  src = {selectedShoe.pictures[2].img}/>
-            <p>Price: £{selectedShoe.price}</p>
-            <p>Description:{selectedShoe.description}</p>
-            <p>Quantity on stock: {selectedShoe.quantity} piece</p>
+
+    return (
+        <div className = "shoeDetail">
+            <br></br> <br></br> <br></br>
+            <h3>{selectedShoe.name}</h3>
+            <a href = "/products">Go back.....</a>
+            {/* <br></br> */}
+        
+                <div  className = "shoeDetailImg">
+                <br></br>
+                    <img  src = {selectedShoe.img}/>
+                    <img  src = {selectedShoe.pictures[0].img}/>
+                    <img  src = {selectedShoe.pictures[1].img}/>
+                    <img  src = {selectedShoe.pictures[2].img}/>
+                    <br></br>
+                </div>
+
+            <div className="sizeChart">
+                <br></br> <br></br> <br></br>
+                <h4> Description </h4>
+                <p>{selectedShoe.description}</p> 
+                <br></br> <br></br> <br></br>
+                <h4> Size chart & help </h4>
+                <br></br> <br></br> <br></br>
+                <SizeChart />
+                <br></br>
+                <button className = "basketB"> Click to Buy: £{selectedShoe.price}</button>
+                
+            </div>
         </div>
-  )
+        
+    )
 }
 
 export default ShoeDetail;

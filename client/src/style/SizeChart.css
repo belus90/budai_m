@@ -4,7 +4,7 @@
 } */
 
 .text {
-    margin-left: -376px;
+    margin-right: 380px;
     margin-bottom: 0;
 }
 
@@ -18,13 +18,15 @@
 
 .size a {
     color: inherit;
-    margin-left: -345px;
+    margin-right: 350px;
 }
 
 .basketB {
-    margin-left: -220px;
+    margin-left: 0;
     width: 200px;
+    height: 30px;
 }
+
 
 /* .size img {
     width: 30px;

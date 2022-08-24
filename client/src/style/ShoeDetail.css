@@ -1,0 +1,29 @@
+.shoeDetail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.shoeDetailImg img{
+    width: 330px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 3px;
+    text-align: center;
+}
+
+.shoeDetail a {
+    color: inherit;
+}
+
+.shoeDetail p {
+    text-align: center;
+}
+
+.sizeChart button:hover{
+    background-color:#b3b0af;
+}
+
+

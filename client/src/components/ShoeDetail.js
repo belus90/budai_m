@@ -28,8 +28,6 @@ const ShoeDetail = ({selectedShoe}) => {
                 <h4> Description </h4>
                 <p>{selectedShoe.description}</p> 
                 <br></br> <br></br> <br></br>
-                <h4> Size chart & help </h4>
-                <br></br> <br></br> <br></br>
                 <SizeChart />
                 <br></br>
                 <button className = "basketB"> Click to Buy: £{selectedShoe.price}</button>

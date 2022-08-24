@@ -1,10 +1,16 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The project build up with the fallowing:
+
+### Server & Client side
+
+If you want to know more about the front-end you need to go into the client folder. 
+
+If you want to check the back-end of the project you need to navigate through from the server folder. 
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the client directory, you can run:
 
 ### `npm start`
 
@@ -39,6 +45,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Also you need to run the fallowing extensions as well:
+
+    npm boostrap
+    
+    npm react-router-dom
+    
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

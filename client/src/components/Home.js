@@ -4,6 +4,7 @@ import "../style/Home.css";
 
 //  Home Page with the company "Logo" 
 
+
 function Home() {
   return (
     <div className="home">

@@ -85,10 +85,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
     -> Preview of the products page
     
-    ![Product_list](https://user-images.githubusercontent.com/78152844/186435820-c8d0782e-9f5c-4abb-a034-2d1d377b3104.png)
+   ![Product_list](https://user-images.githubusercontent.com/78152844/186436248-7d0cfdb3-8ea3-4087-8d6f-163de35a1d3d.png)
+
     
     -> Preview of the product detail
     
-    ![Product_detail](https://user-images.githubusercontent.com/78152844/186436020-c11d35d7-c0f4-4f03-9f82-94b1f5b38126.png)
+  ![Product_detail](https://user-images.githubusercontent.com/78152844/186436316-ad0c9c84-d6fb-4c9a-b575-41265cda6966.png)
+
 
 

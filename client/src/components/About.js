@@ -1,6 +1,8 @@
 import React from "react";
 import "../style/About.css";
 
+// This could include information about the website
+// which can be added in later time
 
 function About() {
   return (

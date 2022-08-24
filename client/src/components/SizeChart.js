@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/SizeChart.css";
 
+// This is the section of the "size cahrt"
 
 function SizeChart() {
 

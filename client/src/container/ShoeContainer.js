@@ -14,15 +14,14 @@ const ShoeContainer = () => {
         getShoe();
     }, [])
 
+    // Fetching our API here 
+    
     const getShoe = function(){
         fetch('http://localhost:8080/shoes')
         .then(res => res.json())
         .then(shoes => setShoes(shoes))
     }
 
-    // const onShoeClick = function(shoe){
-    //     setSelectedShoe(shoe);
-    // }
 
     const onShoeSelected = function(shoe){
         setSelectedShoe(shoe);

@@ -12,10 +12,10 @@ const ShoeDetail = ({selectedShoe}) => {
             <br></br> <br></br> <br></br>
             <h3>{selectedShoe.name}</h3>
             <a href = "/products">Go back.....</a>
-            {/* <br></br> */}
         
                 <div  className = "shoeDetailImg">
                 <br></br>
+                {/* // Multiple pictures from the db  */}
                     <img  src = {selectedShoe.img}/>
                     <img  src = {selectedShoe.pictures[0].img}/>
                     <img  src = {selectedShoe.pictures[1].img}/>
